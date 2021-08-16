@@ -3,3 +3,4 @@
 !README.md
 !sf-test.js
 !.dockerignore
+!node_modules

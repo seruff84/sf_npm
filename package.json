@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/seruff84/sf_npm/issues"
   },
-  "homepage": "https://github.com/seruff84/sf_npm#readme"
+  "homepage": "https://github.com/seruff84/sf_npm#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
 }
