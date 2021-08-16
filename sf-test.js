@@ -1,10 +1,19 @@
-var fruit = ['арбузы', 'бананы', 'Вишня'];
-fruit.sort(); // ['Вишня', 'арбузы', 'бананы']
+function createTable(tableData) {
+  var table = document.createElement('table');
+  var tableBody = document.createElement('tbody');
 
-var scores = [1, 2, 10, 21];
-scores.sort(); // [1, 10, 2, 21]
+  tableData.forEach(function(rowData) {
+    var row = document.createElement('tr');
 
-var things = ['слово', 'Слово', '1 Слово', '2 Слова'];
-things.sort(); // ['1 Слово', '2 Слова', 'Слово', 'слово']
-// В Unicode, числа находятся перед буквами в верхнем регистре,
-// а те, в свою очередь, перед буквами в нижнем регистре.
+    rowData.forEach(function(cellData) {
+      var cell = document.createElement('td');
+      cell.appendChild(document.createTextNode(cellData));
+      row.appendChild(cell);
+    });
+
+    tableBody.appendChild(row);
+  });
+
+  table.appendChild(tableBody);
+  document.body.appendChild(table);
+}
