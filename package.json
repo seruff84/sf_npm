@@ -1,11 +1,19 @@
 {
-  "name": "js",
+  "name": "sf_npm",
   "version": "1.0.0",
-  "description": "test js for SF B4.5.1",
+  "description": "test task SF B4.5.1",
   "main": "sf-test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seruff84/sf_npm.git"
+  },
+  "author": "Dmitrii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seruff84/sf_npm/issues"
+  },
+  "homepage": "https://github.com/seruff84/sf_npm#readme"
 }
