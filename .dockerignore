@@ -4,3 +4,5 @@
 !sf-test.js
 !.dockerignore
 !node_modules
+!composer.json
+!composer.lock
